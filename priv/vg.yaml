@@ -1,0 +1,8 @@
+apiVersion: "vonnegutoperator.spacetimeinsight.com/v1alpha1"
+kind: VonnegutCluster
+metadata:
+  name: my-vg-object-2
+spec:
+  image: my-awesome-cron-image
+  chains: 2
+  replicas: 2

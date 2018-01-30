@@ -1,0 +1,19 @@
+{application, vonnegut_operator,
+ [{description, "K8s operator for creating and managing vonnegut chains"},
+  {vsn, "git"},
+  {registered, []},
+  {mod, {vonnegut_operator_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    lager,
+    sasl,
+    kuberl
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.

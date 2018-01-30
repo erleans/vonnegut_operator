@@ -1,0 +1,11 @@
+apiVersion: apiextensions.k8s.io/v1beta1
+kind: CustomResourceDefinition
+metadata:
+  name: vonnegutclusters.vonnegutoperator.spacetimeinsight.com
+spec:
+  group: vonnegutoperator.spacetimeinsight.com
+  version: v1alpha1
+  names:
+    kind: VonnegutCluster
+    plural: vonnegutclusters
+  scope: Namespaced

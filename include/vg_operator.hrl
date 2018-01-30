@@ -1,0 +1,4 @@
+-define(KIND, <<"VonnegutCluster">>).
+-define(GROUP, <<"vonnegutoperator.spacetimeinsight.com">>).
+-define(VERSION, <<"v1alpha1">>).
+-define(PLURAL, <<"vonnegutclusters">>).
